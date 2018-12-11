@@ -1,0 +1,479 @@
+body {
+    font-family: Sintony, sans-serif;
+    color: #5c6369;
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    font-family: Playfair Display;
+    color: #14141d;
+
+}
+
+.yellow {
+    color: #fda724;
+}
+
+.menu {
+    margin-top: 10px;
+
+}
+
+.menu a:hover {
+    text-decoration: none;
+    color: #01050c;
+    transition: .3s;
+}
+
+.menu__item {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.menu__item a {
+    color:#2c465a;
+}
+
+.cta {
+    background: #fea100;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    width: 200px;
+    padding: 15px 0;
+    display: block;
+    cursor: pointer;
+    border: 0;
+    font-weight: 700;
+    margin-top: -5px;
+}
+
+.cta a:hover {
+    text-decoration: none;
+    color: #5b5c6a;
+    transition: .3s;
+}
+
+.book__icon {
+    background: url(../img/order.png);
+    width: 21px;
+    height: 17px;
+    display: block;
+    margin-right: 13px;
+
+}
+
+.book:hover {
+    color:#2c465a;
+    transition: .3s;
+}
+
+.main-header {
+    padding: 24px 0;
+
+}
+
+.offer {
+    background: url(../img/first-bg.jpg) no-repeat center top;
+    height: 500px;
+    
+}
+
+.title {
+    padding: 220px 0;
+    
+    
+}
+
+.title__heading {
+    color: #ffffff;
+    font-family: Playfair Display;
+    font-size: 56px;
+}
+
+.title__desc {
+    font-size: 40px;
+    color: #ffffff;
+    flex-flow: Playfair Display;
+    margin-top: -10px;
+}
+
+.title__desc span {
+    font-size: 40px;
+    color: #fea100;
+
+}
+
+.call {
+    background: #edf1f3;
+    border-bottom: 1px solid #dde3e7;
+	padding: 30px 0;
+
+}
+
+.phone__text {
+    background: url(../img/phone.png) no-repeat left center;
+    color: #14141d;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 180px;
+    padding-left: 56px;
+    padding-top: 5;
+
+}
+
+.phone {
+    width: 450px;
+}
+
+.phone__text span {
+    font-size: 16px;
+    display: block;
+    margin-top: -4px;
+
+}
+
+.phone__digits {
+    font-size: 32px;
+    color: #14141d;
+    font-family: Playfair Display;
+    font-weight: 700;
+    margin-left: 42px;
+    margin-top: -10px;
+}
+
+
+
+.history {
+	margin-top: 60px;
+}
+
+.about {
+	padding: 65px 0 100px;
+}
+
+
+.history__title {
+    font-size: 36px;
+    margin-bottom: 25px;
+
+}
+
+.history__text {
+    margin-top: 40px;
+    font-size: 14px;
+    color: #676d73;
+}
+
+.history__button {
+    margin-top: 48px;
+    width: 148px;
+}
+
+.history a {
+    color: #fff;
+}
+
+.food__item {
+    width: 100%;
+}
+
+.food__item2 {
+    padding-top: 10px;
+}
+
+.food__detail {
+    text-transform: uppercase;
+    padding-top: 80px;
+    padding-bottom: 35px;
+}
+
+.food__del {
+    font-size: 13px;
+    padding-left: 50px;
+    padding-right: 20px;
+    border-right: 1px solid #e1e1e1;
+}
+
+.food__del span {
+    color: #fe4c8d;
+}
+
+.food__tel {
+    padding-left: 20px;
+    padding-right: 80px;
+    font-size: 26px;
+    color: #000;
+}
+
+.food-dawn {
+    margin-top: 50px;
+}
+
+.special {
+    background: url(../img/third-bg.jpg) no-repeat center top;
+    padding-top: 80px;
+    margin-bottom: 125px;
+    text-align: center;
+}
+
+.special-title {
+    font-size: 35px;
+    padding-bottom: 45px;
+    color: #fff;
+}
+
+.food__img {
+    width: 100%;
+}
+
+.food {
+    box-shadow: 0px 3px 30px 3px #efefef;
+}
+
+.food__title {
+    font-size: 26px;
+    margin-top: 52px;
+    margin-bottom: 25px;
+}
+
+.food__desc {
+    font-size: 14px;
+    padding: 0px 50px;
+}
+
+.food__price {
+    font-size: 25px;
+    color: #fda724;
+}
+
+.footer {
+    background: #373844;
+    color: #93989e;
+    font-size: 13px;
+    padding-top: 75px;
+    padding-bottom: 105px;
+}
+
+.footer .social {
+    padding-left: 45px;
+}
+
+
+.social__item {
+    border-radius: 50%;
+}
+
+
+.social__item + .social__item {
+    margin-left: 7px;
+}
+
+
+.social__item a {
+    width: 52px;
+    height: 52px;
+    display: block;
+}
+
+
+.social__item_fb {
+    background: #3b5998 url(../img/fb.png) no-repeat center center;
+}
+
+
+.social__item_tw {
+    background: #55acee url(../img/tw.png)  no-repeat center center;
+}
+
+.social__item_g {
+    background: #dd4b39 url(../img/g.png)  no-repeat center center;
+}
+
+.line {
+    background: #52535e;
+    margin-top: 55px;
+    height: 1px;
+}
+
+.credits {
+    margin-top: 43px;
+    margin-left: 80px;
+}
+
+/*Адаптация*/
+
+@media (max-width: 1024px) {
+    .footer .social {
+        padding-left: 100px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer .social {
+        padding-left: 60px;
+    }
+
+    .menu {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .about {
+        padding-top: 0;
+    }
+
+    .food__detail {
+        padding-top: 25px;
+    }
+}
+
+@media (max-width: 767px) {
+    
+    .logo {
+        width: 140px;
+    }
+
+    .menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cta {
+        font-size: 12px;
+    }
+
+    .title__heading,
+    .title__desc, 
+    .title__desc span {
+        font-size: 30px;
+    }
+
+    .phone__digits {
+        font-size: 25px;
+        margin-left: 0;
+    }
+
+    .phone__text {
+        padding-left: 45px;
+    }
+
+    .food__tel {
+        padding-top: 0;
+        padding-right: 0;
+        padding-bottom: 0;
+        padding-left: 10px;
+    }
+
+    .food__detail {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .food__del {
+        padding-left: 0;
+    }
+
+    .line {
+        display: none;
+    }
+}
+
+
+@media (max-width: 320px) {
+    .title__heading,
+    .title__desc, 
+    .title__desc span {
+        font-size: 25px;
+    }
+
+    .phone__text {
+        padding-left: 45px;
+    }
+
+    .food__tel {
+        padding-top: 0;
+        padding-right: 0;
+        padding-bottom: 0;
+        padding-left: 10px;
+    }
+
+    .phone__text {
+        background-size: 28px;
+        padding-left: 35px;
+    }
+
+    .phone__text span {
+        font-size: 14px;
+    }
+
+    .phone__digits {
+        font-size: 18px;
+        padding-top: 12px;
+        margin-left: -13px;
+    }
+
+    .history__title,
+    .food__title,
+    .history__title,
+    .special-title {
+        font-size: 25px; 
+    }
+
+    .history {
+        margin-top: 70px;
+    }
+
+    .history__text {
+        margin-top: 20px;
+        font-size: 13px;
+    }
+
+    .food__title1 {
+        margin-top: 115px;
+    }
+
+    .food__tel {
+        font-size: 15px;
+        padding-top: 8px;
+        padding-left: 5px;
+    }
+
+    .food__price {
+        font-size: 15px;
+        padding-top: 8px;
+        padding-left: 15px;
+    }
+
+    .social__item {
+        width: 35px;
+        height: 35px;
+    }
+
+    .special {
+        margin-bottom: 90px;
+    }
+
+    .credits {
+        margin-top: 20px;
+        margin-left: 70px;
+    }
+
+    .social__item {
+        background-size: 18px;
+    }
+
+    .social__item_fb {
+        background-size: 11px;
+    }
+}
