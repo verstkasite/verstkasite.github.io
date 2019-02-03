@@ -1,0 +1,227 @@
+
+body {
+    height: 100%; 
+    overflow-x: hidden;
+ }
+ 
+ #wrapper {
+    width: 100%;
+    min-width: 1200px;
+    min-height: 100%;
+    height: auto !important;
+}
+
+.footer {
+    margin: -41px auto 0;
+    min-width: 1200px;
+    height: 41px;
+    position: relative;
+}
+
+.title {
+    font-family: 'Nunito';
+    font-weight: bold;
+    font-size: 30px;
+    color: #000;
+}
+
+p {
+    font-family: 'Yantramanav';
+    font-weight: 300;
+    font-size: 20px;
+}
+
+footer {
+    font-family: 'Yantramanav';
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.header {
+    position: absolute;
+    top: 33px;
+    left: 35px;
+    z-index: 1
+}
+
+.carousel-indicators {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: absolute;
+    top: -18px;
+    right: 53px;
+    margin: 0px;
+}
+
+.carousel-indicators li {
+    width: 6px;
+    height: 6px;
+    border-radius: 100%;
+    margin-top: 15px;
+    background: #dcdcdc;
+}
+
+.carousel-indicators .active {
+    width: 8px;
+    height: 8px;
+    background: #dcdcdc;
+}
+
+.big-title {
+    font-family: 'Nunito';
+    font-weight: 300;
+    font-size: 60px;
+}
+
+.carousel-wrapper {
+    max-width: 560px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    z-index: 10;
+    transform: translate(-50%, -50%)
+}
+
+.email {
+    padding: 15px 135px 15px 30px;
+    margin-top: 60px;
+    border-radius: 30px 0 0 30px;
+    border: none;
+}
+
+.email::placeholder {
+    font-size: 18px;
+    font-family: 'Yantramanav';
+    font-weight: 300;
+}
+
+.button {
+    padding: 13px 50px 15px 40px;
+    border: none;
+    border-radius: 0px 30px 30px 0;
+    margin-left: -5px;
+    font-size: 20px;
+    font-family: 'Nunito';
+    font-weight: 400;
+    color: #fff;
+    background: #20ab50;
+}
+
+.section-about p {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.section-about p + p {
+    padding-top: 35px;
+}
+
+.article {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.article-text, .article-img {
+    flex: 1 0 50%;
+}
+
+.article-img img, img {
+    display: block;
+    width: 100%;
+}
+
+.section-about .article-text {
+    padding: 121px 134px 0px 114px;
+}
+
+.section-about .title {
+    text-align: center;
+    padding-bottom: 47px;
+}
+
+.section-customers .article-text {
+    position: relative;
+    padding: 200px 148px 190px 153px;
+    text-align: center;
+}
+
+.section-customers p:before {
+    content: '"';
+    display: block;
+    position: absolute;
+    top: 70px;
+    left: -15px;
+    color: #dcdcdc;
+    font-size: 72px;
+}
+
+.section-customers p:after {
+    position: absolute;
+    content: '"';
+    display: block;
+    position: absolute;
+    right: -17px;
+    bottom: 62px;
+    color: #dcdcdc;
+    font-size: 72px;
+}
+
+.article-text blockquote {
+    position: relative;
+}
+
+.section-customers .article-text p {
+    padding-top: 113px;
+    padding-bottom: 105px;
+    line-height: 30px;
+}
+
+.section-plae {
+    background: url(../img/image.jpg);
+    margin-top: 85px;
+    margin-bottom: 92px;
+}
+
+.section-plae .container {
+    display: flex;
+    justify-content: space-between;
+} 
+
+.container-text {
+    max-width: 25%;
+    padding-bottom: 42px;
+}
+
+.container-img {
+    max-width: 50%;
+}
+
+.section-plae .block {
+    padding: 16px;
+    margin-top: 10px;
+    line-height: 25px;
+    background: #fff;
+    border-radius: 7px;
+}
+
+.section-plae .subtitle {
+    font-family: 'Yantramanav';
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.section-plae p {
+    font-family: 'Yantramanav';
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.plae-block {
+    padding-top: 80px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
